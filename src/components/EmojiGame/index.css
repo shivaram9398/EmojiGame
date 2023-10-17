@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #6a59ff;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-con {
+  display: flex;
+  flex-direction: row;
+  width: 720px;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+@media (max-width: 576px) {
+  .list-con {
+    width: 300px;
+    margin: 20px;
+  }
+}

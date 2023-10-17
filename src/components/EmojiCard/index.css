@@ -1,0 +1,32 @@
+.list {
+  list-style: none;
+}
+.emoji-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #9796f0;
+  height: 150px;
+  width: 150px;
+  margin: 4px;
+  border-radius: 8px;
+  border: 1px solid #ffffff30;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .list-con {
+    width: 300px;
+    margin: 20px;
+  }
+  .emoji-con {
+    width: 60px;
+    height: 75px;
+    margin-left: 5px;
+  }
+  .image {
+    height: 40px;
+  }
+}
