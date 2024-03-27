@@ -7,8 +7,8 @@ const EmojiCard = props => {
     changed(id)
   }
   return (
-    <li className="list">
-      <button
+    <li className="list"> //commit check
+      <button 
         className="emoji-con"
         type="button"
         onClick={emojiClick}
